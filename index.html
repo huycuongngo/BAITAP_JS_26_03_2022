@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  >
+
+  <!-- Bootstrap CSS -->
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  >
+
+  <!-- MY CSS -->
+  <link
+    rel="stylesheet"
+    href="./css/style.css"
+  >
+</head>
+
+<body>
+  <section class="p-5 container">
+    <h1>Bai tap Array</h1>
+    <div class="form-group">
+      <label for="">Nhap so</label>
+      <input
+        type="number"
+        class="form-control"
+        name=""
+        id="txtNum"
+        aria-describedby="helpId"
+        placeholder=""
+      >
+    </div>
+    <button
+      class="btn btn-success"
+      id="btn-push"
+    >
+      Push
+    </button>
+    <button
+      class="btn btn-outline-warning"
+      id="btn-pop"
+    >
+      Pop
+    </button>
+    <button
+      class="btn btn-danger"
+      id="btn-delete"
+    >
+      Delete
+    </button>
+    <p>Mang: <span id="myArr"></span></p>
+
+    <!-- TONG CAC SO DUONG TRONG MANG -->
+    <p>Ket qua tong cac so duong
+      <button
+        id="tong-cac-so-duong"
+        class="btn btn-success"
+      >
+        Do it!
+      </button>
+    </p>
+    <span id="result1"></span>
+
+    <!-- DEM SO DUONG TRONG MANG -->
+    <p>So luong so duong
+      <button
+        id="so-luong-so-duong"
+        class="btn btn-success"
+      >
+        Do it!
+      </button>
+    </p>
+    <span id="result2"></span>
+
+    <!-- SO NHO NHAT TRONG MANG -->
+    <p>Gia tri nho nhat trong mang
+      <button
+        id="gtnn"
+        class="btn btn-success"
+      >
+        Do it!
+      </button>
+    </p>
+    <span id="result3"></span>
+
+    <!-- SO DUONG NHO NHAT TRONG MANG -->
+    <p>So duong nho nhat trong mang
+      <button
+        id="so-duong-nho-nhat"
+        class="btn btn-success"
+      >
+        Do it!
+      </button>
+    </p>
+    <span id="result4"></span>
+
+    <!-- SO CHAN CUOI CUNG TRONG MANG -->
+    <p>So chan cuoi cung trong mang
+      <button
+        id="so-chan-cuoi-cung"
+        class="btn btn-success"
+      >
+        Do it!
+      </button>
+    </p>
+    <span id="result5"></span>
+
+    <!-- DOI CHO 2 GIA TRI THEO VI TRI -->
+    <p>Doi cho 2 gia tri theo vi tri
+    <div class="form-group">
+      <label for="">Index 1</label>
+      <input
+        type="number"
+        class="form-control"
+        name=""
+        id="index1"
+        aria-describedby="helpId"
+        placeholder=""
+      >
+    </div>
+    <div class="form-group">
+      <label for="">Index 2</label>
+      <input
+        type="number"
+        class="form-control"
+        name=""
+        id="index2"
+        aria-describedby="helpId"
+        placeholder=""
+      >
+    </div>
+    <button
+      id="doi-vi-tri"
+      class="btn btn-success"
+    >
+      Do it!
+    </button>
+    </p>
+    <span id="result6"></span>
+
+    <!-- SAP XEP MANG TANG DAN -->
+    <p>Sap xep mang tang dan
+      <button
+        id="mang-tang-dan"
+        class="btn btn-success"
+      >
+        Do it!
+      </button>
+    </p>
+    <span id="result7"></span>
+
+    <!-- TIM SO NGUYEN TO DAU TIEN TRONG MANG -->
+    <p>So nguyen to dau tien trong mang
+      <button
+        id="so-nguyen-to-dau-tien"
+        class="btn btn-success"
+      >
+        Do it!
+      </button>
+    </p>
+    <span id="result8"></span>
+    
+    <!-- DEM SO LUONG SO NGUYEN TRONG MANG -->
+    <p>So luong so nguyen trong mang
+      <button
+        id="so-luong-so-nguyen"
+        class="btn btn-success"
+      >
+        Do it!
+      </button>
+    </p>
+    <span id="result9"></span>
+
+    <!-- SO SANH SO LUONG SO DUONG VA SO AM -->
+    <p>So sanh so luong so duong va so luong so am
+      <button
+        id="so-sanh-am-duong"
+        class="btn btn-success"
+      >
+        Do it!
+      </button>
+    </p>
+    <span id="result10"></span>
+
+
+
+  </section>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- MY JS -->
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
